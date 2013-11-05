@@ -1,0 +1,54 @@
+
+/* fast reset - ignore */
+*{padding:0;margin:0;list-style:none;border:0;outline:none}
+html, body {height:100%}
+a, a:link, a:active, a:visited {color:#fff; text-decoration:none}
+a:hover, a:link:hover {text-decoration:underline}
+
+body {
+font-family: Helvetica, Arial, Sans-serif;
+background:#fff;
+font-size:12px;
+color:#fff;
+}
+
+/* MISTL SLIDER CSS */
+
+.mistl {width:100%; overflow:hidden; height:200px; margin:10px auto; background:#1d1d1d; position:relative}
+/* popup version */
+.mistl.popup {height:35px; margin:0 auto 10px auto}
+.mistl.popup .toggle {cursor:pointer; margin:0 0 0 50px; height:35px; line-height:35px; display:inline-block; overflow:hidden;}
+.mistl.popup .toggle:hover {text-decoration:underline}
+/* prev next */
+.mistl .next, .mistl .prev {position:absolute; cursor:pointer}
+.mistl .next:hover, .mistl .prev:hover {-ms-opacity:0.7; -moz-opacity:0.7; -webkit-opacity:0.7; opacity:0.7}
+.mistl .next, .mistl .prev {font-size:40px;}
+.mistl ul li figure figcaption {background:#000; -webkit-opacity:0.7; opacity:0.7;}
+/* horizontal */
+.mistl.horizontal .next, .mistl.horizontal .prev {text-align:center; line-height:68px; width:45px; height:77px; float:left; left:0; top:50%; margin-top:-37px;}
+.mistl.horizontal .next {left:auto; right:0}
+.mistl.horizontal .mistl_slide {overflow:hidden; float:left; width:calc(100% - 104px); height:100%; margin:0 0 0 50px}
+.mistl.horizontal .mistl_slide > div {width:100%; height:100%}
+.mistl.horizontal ul {width:9999px; position:relative; height:100%}
+/* single li element, change measures as needed */
+.mistl.horizontal ul li {display:block; width:280px; height:190px; overflow:hidden; float:left;}
+.mistl.horizontal ul li figure, .mistl ul li figure img {width:100%; height:100%; position:relative}
+.mistl.horizontal ul li figure figcaption a {color:#fff !important; font-size:12px; font-weight:100}
+.mistl.horizontal ul li figure > a {display:block; position:relative; width:100%; height:100%;}
+.mistl.horizontal ul li span a {display:block; height:60px; text-indent:-999px; overflow:hidden}
+.mistl.horizontal ul li figure figcaption {display:block; width:calc(100% - 20px); padding:10px; overflow:hidden; position:absolute; bottom:0; left:0; height:55px;}
+/* vertical - change measures as needed */
+.mistl.vertical {overflow:hidden; width:300px; height:600px; position:relative}
+.mistl.vertical .mistl_slide {overflow:hidden; height:520px; margin-top:40px;}
+.mistl.vertical ul {position:relative; height:9999px; overflow:hidden; width:100%}
+.mistl.vertical .next, .mistl.vertical .prev {bottom:0; left:50%; margin-left:-30px; width:60px; height:30px; z-index:300}
+.mistl.vertical .prev {bottom:auto; top:0}
+/* single li element, change measures as needed */
+.mistl.vertical ul li {display:block; width:100%; height:160px; overflow:hidden;}
+.mistl.vertical ul li figure {width:90%; height:100%; margin:15px auto; position:relative}
+.mistl.vertical ul li figure > a {display:block; overflow:hidden; width:100%; height:100%; float:left; position:relative}
+.mistl.vertical ul li figure figcaption {display:block; width:calc(100% - 20px); padding:10px; overflow:hidden; position:absolute; bottom:0; left:0; height:55px;}
+.mistl.vertical .next, .mistl.vertical .prev {text-align:center; line-height:30px; -ms-transform:rotate(90deg); -moz-transform:rotate(90deg); -webkit-transform:rotate(90deg); transform:rotate(90deg)}
+
+
+
