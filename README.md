@@ -28,7 +28,7 @@ Attach Mistl function
       $('.something').mistl();
     });
 
-Options (Slide vertical, or horizontal with popup effect) :
+Options before body closure (Slide vertical, or horizontal with popup effect) :
 
     $(document).ready(function(){
       $('.something').mistl({
