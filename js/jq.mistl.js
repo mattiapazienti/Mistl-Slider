@@ -13,7 +13,7 @@ $.fn.mistl = function(options) {
         var defaults = {
             mode: 'horizontal',
             popup: false,
-            toggleText: 'show more'
+            toggleText: 'open slideshow'
         };
              
         //wrapper
