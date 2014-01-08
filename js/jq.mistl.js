@@ -56,7 +56,7 @@ $.fn.mistl = function(options) {
         hul.css({'left' : mssleft});
         vul.css({'top' : msstop});
 
-        //functions
+        //functions - to be updated
 
         //if popup
         if (settings.popup === true) {
