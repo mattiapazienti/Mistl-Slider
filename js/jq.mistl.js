@@ -1,5 +1,5 @@
 /* 
- * author: Mattia Marco Pazienti | Codekod
+ * author: Mattia Marco Pazienti | Codekod | check out experiments repo for isyslider
  */
 
 ;(function($, window, document ) {
